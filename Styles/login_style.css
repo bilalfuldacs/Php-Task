@@ -1,0 +1,66 @@
+form {
+  margin: 5% auto 95%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+input[type="password"] {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/waves.svg");
+  background-repeat: no-repeat;
+}
+input[type="text"] {
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+.error-box {
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: pink;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 10%;
+}
+.input-container input {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+
+  box-sizing: border-box;
+}
+.input-container label {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.logo-container {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
